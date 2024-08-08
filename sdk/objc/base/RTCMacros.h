@@ -37,7 +37,9 @@
 // problem.
 //
 // This macro must be defined uniformily across all the translation units.
-#define RTC_OBJC_TYPE_PREFIX LK
+#ifndef RTC_OBJC_TYPE_PREFIX
+#define RTC_OBJC_TYPE_PREFIX
+#endif
 
 // RCT_OBJC_TYPE
 //
